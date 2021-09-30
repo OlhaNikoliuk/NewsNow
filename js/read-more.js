@@ -5,3 +5,11 @@ btnReadMore.forEach((btn) =>
     btn.classList.add('is-hidden');
   })
 );
+
+const btnReadMoreTab = document.querySelectorAll('[data-read-more-table]');
+
+btnReadMoreTab.forEach((btn) =>
+  btn.addEventListener('click', () => {
+    btn.classList.add('is-hidden');
+  })
+);
