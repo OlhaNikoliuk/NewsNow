@@ -97,7 +97,7 @@ html {
 }
 
 .logo-icon {
-  fill: var(--accent-color);
+  stroke: var(--accent-color);
   transition: all 500ms linear;
 }
 
@@ -110,7 +110,7 @@ html {
 }
 .logo:hover > .logo-icon {
   transform: scale(1.2);
-  fill: var(--accent-color-hover);
+  stroke: var(--accent-color-hover);
 }
 
 .logo-text {

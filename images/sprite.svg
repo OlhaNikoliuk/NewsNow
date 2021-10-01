@@ -21,7 +21,7 @@
 </symbol>
 
 <symbol id="logo" viewBox="0 0 32 32">
-<path fill="none" stroke="#3dcf8e"  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="12" d="M26 16c0 5.523-4.477 10-10 10s-10-4.477-10-10c0-5.523 4.477-10 10-10s10 4.477 10 10z"></path>
+<path fill="none"   stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="12" d="M26 16c0 5.523-4.477 10-10 10s-10-4.477-10-10c0-5.523 4.477-10 10-10s10 4.477 10 10z"></path>
 </symbol>
 
 <symbol id="list" viewBox="0 0 43 32">
