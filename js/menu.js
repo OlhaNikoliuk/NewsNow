@@ -4,14 +4,11 @@ const menuHeaderBtnRef = document.querySelector('[data-menu-button]');
 const mobileMenuRef = document.querySelector('[data-menu]');
 
 menuHeaderBtnRef.addEventListener('click', () => {
-  //const expanded = menuHeaderBtnRef.getAttribute('aria-expanded') === 'true' || false;
-
   menuHeaderBtnRef.classList.toggle('is-open');
 
   menuHeaderBtnRef.textContent === 'Close'
     ? (menuHeaderBtnRef.textContent = 'Menu')
     : (menuHeaderBtnRef.textContent = 'Close');
-  //menuHeaderBtnRef.setAttribute('aria-expanded', !expanded);
 
   mobileMenuRef.classList.toggle('is-open');
 });

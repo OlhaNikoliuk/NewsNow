@@ -81,6 +81,8 @@ html {
 
 @media screen and (min-width: 1440px) {
   .container {
+    max-width: 1440px;
+
     padding-right: 135px;
     padding-left: 135px;
   }
@@ -229,8 +231,8 @@ html {
 @media screen and (min-width: 768px) {
   .header .container {
     align-items: center;
-
-    margin: 16px 0 0 0;
+    margin: 0 auto;
+    margin-top: 16px;
   }
 
   .header-btn {
@@ -375,6 +377,8 @@ html {
 @media screen and (min-width: 1440px) {
   .page-info-wrapper {
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
     padding-right: 135px;
     padding-left: 135px;
   }
@@ -1038,6 +1042,8 @@ html {
   .footer-wrap {
     display: flex;
     align-items: baseline;
+    max-width: 1160px;
+    margin: 0 auto;
     margin-bottom: 42px;
   }
 
